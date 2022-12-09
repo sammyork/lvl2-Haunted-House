@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: black;
+            color:white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 0px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            font-size: 2vw;
+            padding: 15px 32px;
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            white-space:nowrap;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        #start {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding-top: 35vh;
+            padding-bottom: 40vh;;
+        }
+        .all {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-image: url('imgs/exit.PNG')
+        }
+        #celebrate {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <h1>You Made It Out</h1>
+        <div id="start">
+            <button>
+                <a href = "index.html">Restart</a>
+            </button>
+            <img id="celebrate" src="imgs/giphy.gif">
+        <button type="button" onclick="show()" id="btnID">click for a surprise</button>
+        </div>
+    </div>
+    <script>
+        function show() {
+            document.getElementById('celebrate').style.display = "block";
+            document.getElementById('btnID').style.display = "none";
+        }
+    </script>
+</body>
+</html>
