@@ -33,7 +33,7 @@ a {
 #directions {
    padding-left: 3vw;
    padding-right: 3vw;
-   padding-bottom: 27vh;
+   padding-bottom: 25vh;
 }
 
 .restart {
@@ -50,7 +50,7 @@ a {
     display: flex;
     justify-content: center;
     padding-top: 10vh;
-    padding-bottom: 34vh;
+    padding-bottom: 31vh;
 }
 
 .all {
